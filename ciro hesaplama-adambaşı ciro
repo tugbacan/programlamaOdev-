@@ -1,0 +1,11 @@
+x=int(input("Satış miktarını giriniz:"))
+y=int(input("Birim satış fiyatını giriniz:"))
+def carpma():
+    ciro=x*y
+    print(ciro)
+    return ciro
+def adamBasiCiro():
+    sonuc=x*y/25
+    print(sonuc)
+    return sonuc
+adamBasiCiro()
