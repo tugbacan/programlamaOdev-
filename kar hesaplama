@@ -1,0 +1,14 @@
+x=int(input("Finansman gelirini giriniz:"))
+y=int(input("Pazar gelirini giriniz:"))
+z=int(input("kira gelirini giriniz:"))
+t=int(input("ücreti giriniz:"))
+k=int(input("finansman giderini giriniz:"))
+l=int(input("pazar giderini giriniz:"))
+m=int(input("kira gideriniz giriniz:"))
+n=int(input("muhasabe giderini giriniz:"))
+if (x+y+z)-(t+k+l+m+n)>1000 :
+    print("Şirket kar yapmıştır.")
+elif (x+y+z)-(t+k+l+m+n)==0 :
+    print("Şirket ne kar ne zarar etmiştir.")
+else:
+    print("Şirket zarar etmiştir.")
