@@ -1,0 +1,23 @@
+x=int(input("Planlanmış üretim süresini giriniz:"))
+z=int(input("Plansız duruşu giriniz:"))
+y=int(input("Standart çevrim süresini giriniz:"))
+k=int(input("Üretim Miktarını giriniz:"))
+l=int(input("Sağlam ürün miktarını giriniz:"))
+n=int(input("Toplam üretim miktarını giriniz:"))
+def islem():
+    kullanilabilirlik=(x-z)/x
+    print(kullanilabilirlik)
+    return kullanilabilirlik
+def islem():
+    performans=(y*k)/(x-z)
+    print(performans)
+    return performans
+def islem():
+    kalite=l/n
+    print(kalite)
+    return kalite
+def OEE():
+    sonuc=((x-z)/x)*((y*k)/(x-z))*(l/n)
+    print(sonuc)
+    return sonuc
+OEE()
